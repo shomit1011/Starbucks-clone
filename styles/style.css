@@ -1,0 +1,330 @@
+.nav-left {
+  display: flex;
+  margin-left: -2.5em;
+}
+
+
+.nav-left button {
+  display: flex;
+  margin-top: 1.9em;
+  justify-content: space-evenly;
+  border: 0px;
+  background-color: white;
+  width: 120px;
+  font-weight: bold;
+}
+
+.nav-left img {
+  margin-top: 15px;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.nav-right p {
+  margin-left: 0.6em;
+  margin-right: 0.6em;
+  margin-top: 1.8em;
+  font-weight: bold;
+}
+
+.nav-right img {
+  margin-top: 1.5em;
+}
+
+.signin-btn {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0.7em;
+  border: 0px;
+  border-radius: 15px;
+  width: 80px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.joinnow-btn {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1.5em;
+  border: 0px;
+  border-radius: 15px;
+  width: 100px;
+  height: 35px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.strip {
+  background-color: #1e3932;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.strip p {
+  margin-left: 180px;
+}
+
+.banner {
+  background-color: #d4e9e2;
+  background-image: url("../images/banner.png");
+  padding-bottom: 4em;
+  padding-left: 5.5em;
+  padding-top: 2em;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 69em;
+}
+
+.banner h2{
+  width: 20%;
+  font-weight: bold;
+}
+
+.banner p{
+  padding-top: 1em;
+  font-size: 17px;
+  padding-bottom: 0.8em;
+  font-weight: 620;
+}
+
+.banner p a{
+  color: black;
+}
+
+.banner button{
+  background-color: rgb(50, 121, 82);
+  border: none;
+  border-radius: 20px;
+  width: 32%;
+  padding: 0.4em;
+  color: white;
+  font-weight: 500;
+}
+.card-heading {
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 4em;
+}
+
+.card-heading h3{
+  font-weight: bold;
+  margin-bottom: 0.9em;
+}
+
+.card-heading p{
+  font-weight: 600;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card img {
+  width: 13%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.card {
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 3.5em;
+  border: none!important;
+  padding-bottom: 4em;
+}
+
+.container-3 {
+  text-align: center;
+  padding-top: 3em;
+  background-color: #f1f8f6;
+}
+
+.container-3 h3{
+  font-weight: bold;
+}
+
+.container-3 img {
+  width: 9%;
+}
+
+.container-3 ul {
+  justify-content: flex-start;
+  list-style: none;
+  padding-top: 3em;
+}
+
+.container-3 ul li {
+  font-weight: bold;
+}
+
+.container-3-nav {
+  background-color: #d4e9e2;
+  padding-top: 0.5em;
+  padding-bottom: 3em;
+  /* background-image: url("../images/coffee.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 420px; */
+  /* background-position-x: 12em; */
+  display: flex;
+
+}
+
+.container-3-nav-content{
+  padding-left: 6%;
+  padding-top: 5%;
+  text-align: left;
+  width: 35%;
+  font-weight: 500;
+
+}
+
+.container-3-nav h4{
+  padding-bottom: 0.6em;
+  font-weight: bold;
+}
+
+.container-3-nav img {
+  width: 45%;
+  padding-left: 15em;
+}
+
+.list ul {
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  font-size: 19px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.card-heading-para{
+  width: 76vw;
+  padding-left: 18em;
+}
+
+.card-new h3{
+  font-weight: bold;
+  margin-bottom: 0.9em;
+}
+
+.card-new-heading p{
+  font-weight: 600;
+}
+
+.card-new-body {
+  text-align: center;
+}
+
+.card-new img {
+  width: 22%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.card-new {
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 3.5em;
+  border: none!important;
+  padding-bottom: 4em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.payments{
+  background-color: #f3f1e7;
+}
+
+.container-payment{
+  display: flex;
+  padding-left: 1em;
+}
+
+.dollar img {
+  width: 4%;
+}
+
+.container-payment-col-2{
+  display: flex;
+  width: 50%;
+}
+
+.container-payment-col-2 img{
+  width: 47%;  
+  padding-right: 2em;
+}
+
+.container-payment-col-3{
+  display: flex;
+  padding-left: 8em;
+}
+
+.container-payment-col-3-content{
+  width: 60%;
+}
+
+.container-payment-col-3 img{
+  width: 25%;  
+  padding-right: 2em;
+}
+
+.preload{
+  height: 60%;
+  width: 35%!important;
+  padding-right: 1.3em!important;
+}
+
+.register{
+  width: 25%!important;
+  height: 65%;
+  margin-left: -3em;
+}
+
+.dollar-last img{
+  width: 6%;
+}
+
+.dollar-last{
+  width: 30%;
+}
+
+.dollar-para{
+  font-weight: bold;
+}
+
+
+.container-payment-col-2-visa{
+  display: flex;
+  padding-left: 0em;
+}
+
+.container-payment-col-2-visa img{
+  width: 15%;
+  height: 80%;
+  padding-right: 1.3em;
+}
+
+.container-payment-col-2-content-visa{
+  width: 30%;
+}
+
+@media screen and (max-width:1000px) {
+  .container-payment{
+    display: block;
+  }
+}
